@@ -13,3 +13,7 @@ python -m run uvicorn main:app --reload
 
 https://api-de-femmes-a-connaitre.onrender.com
 ## Doc des queries sur : (https://api-de-femmes-a-connaitre.onrender.com/docs)
+
+
+
+# Retrouve un tuto pour créer ta propre API en quelques minutes : https://youtu.be/KAK8EwDV6Vw
