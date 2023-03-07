@@ -1,6 +1,6 @@
 # API-femmes-a-connaitre
-Une API réalisée avec FastAPI (Python) listant une centaine de femmes inventrices, chercheuses, autrices, sportives, astronomes, aviatrices, ...
-Elle sont extrêmement nombreuses, cette liste n'est donc bien sûr pas exhaustive. C'est une excellente manière de découvrir des figures invisibilisées, voire carrément effaçées. Raviver cette mémoire à travers des projets est impératif !
+Une API réalisée avec FastAPI (Python) listant une centaine de femmes inventrices, chercheuses, autrices, sportives, astronautes, astronomes, aviatrices, ...
+Elles sont extrêmement nombreuses, cette liste n'est donc bien sûr pas exhaustive. C'est une excellente manière de découvrir des figures invisibilisées, voire carrément effaçées. Raviver cette mémoire à travers des projets est impératif !
 
 ## Pour lancer en local :
 
