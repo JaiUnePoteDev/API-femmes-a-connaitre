@@ -57,7 +57,7 @@ def add_person(person: Women):
     women.append(new_person)
 
     with open('women.json', 'w') as f:
-        json.dump(women, f)
+        json.dump(women, f, indent=4)
     return new_person
 
 @app.put('/change', status_code=204)
@@ -74,7 +74,7 @@ def change_person(person: Women):
         women.remove(person_list[0])
         women.append(new_person)
         with open('women.json', 'w') as f:
-            json.dump(women, f)
+            json.dump(women, f, indent=4)
         return new_person
     else:
         return HTTPException(status_code=404, detail=f"Personne avec id {person.id} n'existe pas")
@@ -85,6 +85,6 @@ def delete_person(w_id: int):
     if len(person) > 0:
         women.remove(person[0])
         with open('women.json', 'w') as f:
-            json.dump(women, f)
+            json.dump(women, f, indent=4)
     else:
         raise HTTPException(status_code=404, detail=f"Il n'y a aucune personne avec l'id {w_id}")
