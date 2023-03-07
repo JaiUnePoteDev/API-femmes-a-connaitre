@@ -8,3 +8,8 @@ python -m run uvicorn main:app --reload
 (le projet se lancera sur le port 8000 : http://127.0.0.1:8000)
 
 ## Doc des queries sur : http://127.0.0.1:8000/docs
+
+## Pour le voir sur serveur :
+
+https://api-de-femmes-a-connaitre.onrender.com
+## Doc des queries sur : (https://api-de-femmes-a-connaitre.onrender.com/docs)
