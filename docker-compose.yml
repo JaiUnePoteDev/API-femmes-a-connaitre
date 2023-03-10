@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  api-femmes-a-connaitre:
+    build: .
+    ports:
+      - "8000:80"
